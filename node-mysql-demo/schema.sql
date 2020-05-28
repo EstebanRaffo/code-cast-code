@@ -1,3 +1,7 @@
+CREATE DATABASE articles;
+
+USE articles;
+
 CREATE TABLE articles (
   id     INT PRIMARY KEY AUTO_INCREMENT,
   author VARCHAR(100) NOT NULL,
